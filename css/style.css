@@ -59,17 +59,35 @@ body {
 .menu-link:focus {
     color: var(--color-accent);
 }
-.contacts {
+.contacts-header {
     color: var(--color-secondary);
     line-height: 1.14;
+    font-weight: 500;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.contacts:hover {
+
+.contacts-header:hover {
     color: var(--color-accent);
 }
 
-.contacts:focus {
+.contacts-header:focus {
+    color: var(--color-accent);
+}
+
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.contacts-footer:hover {
+    color: var(--color-accent);
+}
+
+.contacts-footer:focus {
     color: var(--color-accent);
 }
 .block-first {
